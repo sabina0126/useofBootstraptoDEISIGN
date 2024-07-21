@@ -1,0 +1,56 @@
+ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.logo hr{
+    color: rgb(255, 0, 0);
+}
+.main .col-lg-5{
+    border: 1px solid;
+    border-color: transparent grey;
+}
+.line{
+    width: 50px;
+    height: 3px;
+    background: red;
+}
+.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.line1{
+    height: 15px;
+    background: rgba(128, 128, 128, 0.116);
+}
+h4{
+    font-weight: bold;
+    font-size: large;
+}
+.line2{
+    background: black;
+    height: 1px;
+}
+.content {
+    position: relative;
+    width: 32%;
+}
+
+.contentbox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 128, 0, 0.741);
+    color: var(--white);
+    width: 100%;
+}
+.icon {
+    background: var(--orange);
+    color: var(--white);
+    padding: 20px;
+}
+.con1{
+    padding-left: 10px;
+}
